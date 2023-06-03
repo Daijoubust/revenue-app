@@ -1,0 +1,49 @@
+.header-container {
+    @apply
+    bg-white
+    text-center
+    p-4
+    my-2 mx-0
+}
+
+.header-container>h1{
+    @apply
+    text-2xl
+    font-semibold
+}
+
+.report-container {
+    @apply
+    flex justify-between
+    bg-white
+    p-4
+    my-4 mx-0
+}
+
+.report-container>div{
+    @apply
+    text-center
+    flex-1
+}
+
+.report-container>div:first-child{
+    @apply
+    border-r-[1px] border-solid border-gray-400
+}
+
+.report {
+    @apply
+    text-xl
+    tracking-wide
+    my-1 mx-0
+}
+
+.report.plus {
+    @apply
+    text-green-500
+}
+
+.report.minus {
+    @apply
+    text-red-500
+}

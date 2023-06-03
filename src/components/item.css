@@ -1,0 +1,9 @@
+.income {
+    @apply
+    border-r-8 border-green-400
+}
+
+.expense {
+    @apply
+    border-r-8 border-red-500
+}

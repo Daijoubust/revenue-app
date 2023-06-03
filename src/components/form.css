@@ -1,0 +1,47 @@
+label {
+    @apply
+    inline-block
+    my-3 mx-0
+}
+
+input {
+    @apply
+    border-[1px] border-black border-solid
+    rounded-sm
+    block
+    text-base
+    p-2
+    w-full
+}
+
+input:focus {
+    @apply
+    outline-none
+}
+
+.btn {
+    @apply
+    text-white
+    block
+    cursor-pointer
+    mt-2 mx-0 mb-8
+    p-2
+    text-base
+    border-solid border-[2px]
+    w-full
+    transition
+    ease-in-out
+    duration-500
+}
+
+.btnright {
+    @apply
+    bg-purple-500 hover:bg-purple-800
+}
+
+.btnwrong {
+    @apply
+    bg-white
+    text-black
+    border-gray-300
+}
